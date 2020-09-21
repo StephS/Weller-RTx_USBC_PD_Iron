@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "STTS22HTR")(type "KiCad")(uri "${KIPRJMOD}/STTS22HTR.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP5623C")(type "KiCad")(uri "${KIPRJMOD}/NCP5623C.kicad_sym")(options "")(descr ""))
+  (lib (name "FAN5702")(type "KiCad")(uri "${KIPRJMOD}/FAN5702.kicad_sym")(options "")(descr ""))
+)
