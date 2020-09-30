@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.575,
-          "width": 0.25
+          "height": 2.2,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.254
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "via_dangling|128300000|122600000|4bc081d6-680f-415f-8812-8397548a3d6d|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 1
       },
@@ -566,7 +568,7 @@
   },
   "sheets": [
     [
-      "ccae860a-5d9a-4f3b-bf3b-0e90de6d3001",
+      "caa1171c-b2f3-4f61-aac0-edb14eeb13b3",
       ""
     ]
   ],

@@ -15,7 +15,7 @@
     (property "ki_keywords" "temperature sensor thermistor" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SC-70-5" (id 5) (at 0 0 0)
+    (property "ki_description" "Temperature Sensor Digital, Local -40°C ~ 125°C 16 b 6-UDFN (2x2)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SC?70*" (id 6) (at 0 0 0)
