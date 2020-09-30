@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(5.99.0-3477-gacf13a186)"
     },
-    "CreationDate": "2020-09-29T22:44:54-07:00"
+    "CreationDate": "2020-09-30T00:07:38-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -60,6 +60,16 @@
     {
       "Path": "RT_USB_PD_Soldering_Iron-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RT_USB_PD_Soldering_Iron-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RT_USB_PD_Soldering_Iron-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
