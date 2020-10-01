@@ -56,13 +56,26 @@
         }
       ],
       "drc_exclusions": [
-        "via_dangling|128300000|122600000|4bc081d6-680f-415f-8812-8397548a3d6d|00000000-0000-0000-0000-000000000000"
+        "clearance|183125000|121800000|47dfe97d-9edf-4679-afe6-64f542fded22|04b0869b-5048-4467-8063-824c59a186e2",
+        "clearance|183125000|121800000|47dfe97d-9edf-4679-afe6-64f542fded22|7394dded-75f9-4f93-9567-13edf60a54e0",
+        "clearance|183125000|121800000|b81148ae-ccfd-4742-8ed6-a0a79b1e23ae|04b0869b-5048-4467-8063-824c59a186e2",
+        "clearance|183125000|121800000|b81148ae-ccfd-4742-8ed6-a0a79b1e23ae|7394dded-75f9-4f93-9567-13edf60a54e0",
+        "clearance|183125000|122600000|04b0869b-5048-4467-8063-824c59a186e2|91be9966-b94e-4abd-bd50-8149cc0d3a0d",
+        "clearance|183125000|122600000|04b0869b-5048-4467-8063-824c59a186e2|a1ec3abc-c97f-414f-8452-4ee5a2a4abb5",
+        "clearance|183125000|122600000|7394dded-75f9-4f93-9567-13edf60a54e0|91be9966-b94e-4abd-bd50-8149cc0d3a0d",
+        "clearance|183125000|122600000|7394dded-75f9-4f93-9567-13edf60a54e0|a1ec3abc-c97f-414f-8452-4ee5a2a4abb5",
+        "clearance|183125000|126750000|0f20349d-dc0f-43e0-9301-ab644234820d|40627159-013c-4c9c-bcf9-d3b823651fff",
+        "clearance|183125000|126750000|0f20349d-dc0f-43e0-9301-ab644234820d|af76160d-55b4-4c67-adff-21488f4abdb8",
+        "clearance|183125000|127400000|40627159-013c-4c9c-bcf9-d3b823651fff|980b67b1-92f3-4e67-b09e-4fee91368ec2",
+        "clearance|183125000|127400000|40627159-013c-4c9c-bcf9-d3b823651fff|be8e95a4-07d3-4b81-a128-49fa3578fd71",
+        "clearance|183125000|127400000|af76160d-55b4-4c67-adff-21488f4abdb8|980b67b1-92f3-4e67-b09e-4fee91368ec2",
+        "clearance|183125000|127400000|af76160d-55b4-4c67-adff-21488f4abdb8|be8e95a4-07d3-4b81-a128-49fa3578fd71"
       ],
       "meta": {
         "version": 1
       },
       "rule_severities": {
-        "annulus": "error",
+        "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
@@ -105,8 +118,9 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.15239999999999998,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_annulus": 0.15239999999999998,
-        "min_via_diameter": 0.5588,
+        "min_via_diameter": 0.5599999999999999,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
@@ -134,6 +148,10 @@
           "drill": 0.254
         },
         {
+          "diameter": 0.56,
+          "drill": 0.254
+        },
+        {
           "diameter": 0.7,
           "drill": 0.3
         },
@@ -149,158 +167,7 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "layers": [
-          31,
-          32,
-          34,
-          36,
-          38,
-          44,
-          46
-        ],
-        "name": "Back Only",
-        "renderLayers": [
-          107,
-          108,
-          109,
-          110,
-          111,
-          112,
-          113,
-          115,
-          116,
-          117,
-          118,
-          119,
-          120,
-          121,
-          122,
-          123,
-          124,
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139,
-          143,
-          144
-        ]
-      },
-      {
-        "activeLayer": -2,
-        "layers": [
-          0,
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          44,
-          46,
-          47
-        ],
-        "name": "Both Layers",
-        "renderLayers": [
-          107,
-          108,
-          109,
-          110,
-          111,
-          112,
-          113,
-          115,
-          116,
-          117,
-          118,
-          119,
-          120,
-          121,
-          122,
-          123,
-          124,
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139,
-          143,
-          144
-        ]
-      },
-      {
-        "activeLayer": -2,
-        "layers": [
-          0,
-          33,
-          35,
-          37,
-          39,
-          44,
-          47
-        ],
-        "name": "Front Only",
-        "renderLayers": [
-          107,
-          108,
-          109,
-          110,
-          111,
-          112,
-          113,
-          115,
-          116,
-          117,
-          118,
-          119,
-          120,
-          121,
-          122,
-          123,
-          124,
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139,
-          143,
-          144
-        ]
-      }
-    ]
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -507,7 +374,7 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.2032,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.254,
@@ -558,7 +425,8 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vmrl": ""
+      "vmrl": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
