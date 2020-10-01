@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-3477-gacf13a186)"
+      "Version": "(5.99.0-3540-g0818bd05d)"
     },
-    "CreationDate": "2020-09-30T00:07:38-07:00"
+    "CreationDate": "2020-09-30T20:14:19-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 100.1,
-      "Y": 11.0
+      "X": 90.1,
+      "Y": 11.1
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -24,21 +24,21 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2032,
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": 0.1524,
       "MinLineWidth": 0.2032,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2032,
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": 0.1524,
       "MinLineWidth": 0.2032,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     }
   ],
   "FilesAttributes": [
@@ -73,12 +73,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "RT_USB_PD_Soldering_Iron-F_SilkS.gto",
+      "Path": "RT_USB_PD_Soldering_Iron-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "RT_USB_PD_Soldering_Iron-B_SilkS.gbo",
+      "Path": "RT_USB_PD_Soldering_Iron-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
