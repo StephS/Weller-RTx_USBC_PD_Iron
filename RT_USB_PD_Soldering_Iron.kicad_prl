@@ -1,12 +1,12 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Copper Layers",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "pads": 0.3400000035762787,
+      "pads": 0.5799999833106995,
       "tracks": 1.0,
       "vias": 0.6399999856948853,
       "zones": 1.0
@@ -60,7 +60,7 @@
       36,
       37
     ],
-    "visible_layers": "000d165_80000007"
+    "visible_layers": "0001000_ffffffff"
   },
   "meta": {
     "filename": "RT_USB_PD_Soldering_Iron.kicad_prl",

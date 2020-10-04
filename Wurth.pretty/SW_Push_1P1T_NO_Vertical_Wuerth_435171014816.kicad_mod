@@ -1,4 +1,4 @@
-(module "SW_Push_1P1T_NO_Vertical_Wuerth_434133025816" (layer F.Cu) (tedit 5F65282E)
+(module "SW_Push_1P1T_NO_Vertical_Wuerth_435171014816" (layer F.Cu) (tedit 5F65282E)
   (descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
   (tags "tactile switch Wurth Wuerth")
   (attr smd)
