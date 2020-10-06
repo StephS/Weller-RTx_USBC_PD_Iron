@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 48,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,7 +60,7 @@
       36,
       37
     ],
-    "visible_layers": "000d110_ffffffff"
+    "visible_layers": "001d055_80000007"
   },
   "meta": {
     "filename": "RT_USB_PD_Soldering_Iron.kicad_prl",
