@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "OCTOPAK")(type "KiCad")(uri "C:/Users/qwert/Documents/RT Soldering Pen/Project/RT_USB_PD_Soldering_Iron")(options "")(descr "OCTOPAK"))
   (lib (name "TE FPC")(type "KiCad")(uri "${KIPRJMOD}/TE FPC.pretty")(options "")(descr ""))
+  (lib (name "Basic_SMD")(type "KiCad")(uri "${KIPRJMOD}/Basic_SMD.pretty")(options "")(descr ""))
 )

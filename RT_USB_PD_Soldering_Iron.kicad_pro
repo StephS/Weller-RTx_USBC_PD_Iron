@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.2032,
-          "via_gap": 0.25,
-          "width": 0.254
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [
@@ -174,10 +174,11 @@
         "allow_microvias": false,
         "max_error": 0.0025,
         "min_clearance": 0.15239999999999998,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.15239999999999998,
         "min_via_annular_width": 0.049999999999999996,
@@ -189,7 +190,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.2032,
+        0.0,
         0.2032,
         0.254,
         0.3,
@@ -206,8 +207,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.56,
-          "drill": 0.254
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.56,
@@ -395,6 +396,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -500,6 +502,10 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -518,7 +524,7 @@
   },
   "sheets": [
     [
-      "dfed320f-7383-4e86-baea-1335f9137fa0",
+      "166c5a6e-2e21-4406-afff-8fe7d204bd4f",
       ""
     ]
   ],
