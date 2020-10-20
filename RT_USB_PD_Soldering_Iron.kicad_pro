@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.65
+          "height": 0.95,
+          "width": 1.05
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -484,6 +484,27 @@
         "via_diameter": 1.0,
         "via_drill": 0.6,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/USB_N",
+          "/USB_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.56,
+        "via_drill": 0.254,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -533,7 +554,7 @@
   },
   "sheets": [
     [
-      "166c5a6e-2e21-4406-afff-8fe7d204bd4f",
+      "92300af6-c6df-48d9-9c0b-4129aa513156",
       ""
     ]
   ],
