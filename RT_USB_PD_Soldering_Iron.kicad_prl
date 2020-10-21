@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 44,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -14,13 +14,13 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
-      "footprints": true,
+      "footprints": false,
       "graphics": true,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": true,
-      "otherItems": true,
+      "otherItems": false,
       "pads": true,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffcffff_ffffffff"
+    "visible_layers": "ffefeff_ffffffff"
   },
   "meta": {
     "filename": "RT_USB_PD_Soldering_Iron.kicad_prl",
