@@ -85,8 +85,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -480,7 +480,7 @@
   },
   "sheets": [
     [
-      "d2839d5f-b420-4f62-9e88-bc46f37c322a",
+      "db4965dc-741f-4416-b59d-b0ef4f1c458b",
       ""
     ]
   ],
