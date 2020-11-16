@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "OCTOPAK")(type "KiCad")(uri "C:/Users/qwert/Documents/RT Soldering Pen/Project/RT_USB_PD_Soldering_Iron")(options "")(descr "OCTOPAK"))
+  (lib (name "local")(type "KiCad")(uri "${KIPRJMOD}/local.pretty")(options "")(descr "Local library to avoid external dependencies"))
 )
