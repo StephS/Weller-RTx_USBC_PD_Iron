@@ -16,9 +16,9 @@
       "dimensions": true,
       "footprints": true,
       "graphics": true,
-      "keepouts": false,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
+      "otherItems": true,
       "pads": true,
       "text": true,
       "tracks": true,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "0005055_00000000"
+    "visible_layers": "0005075_80000001"
   },
   "meta": {
     "filename": "RT_USB_PD_Soldering_Iron.kicad_prl",
